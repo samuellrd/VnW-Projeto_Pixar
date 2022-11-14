@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 136px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+}
+
+a {
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+}
+
+.background-pixar {
+  background-image: url("https://wallpaperaccess.com/full/331622.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 333px;
+  width: 100%;
+}
+
+.filmesUm {
+  display: flex;
+  margin-top: 43px;
+  justify-content: space-around;
+}
+
+.filmesUm img {
+  border: solid gray;
+  height: 300px;
+}
+
+.filmesDois {
+  display: flex;
+  margin-top: 43px;
+  justify-content: space-around;
+}
+
+.filmesDois img {
+  width: 202px;
+  height: 300px;
+  border: solid gray;
+}
+
+.filmesTres {
+  display: flex;
+  margin-top: 43px;
+  justify-content: space-around;
+}
+
+.filmesTres img {
+  height: 300px;
+  border: solid gray;
+}
+
+figure :hover {
+  cursor: pointer;
+}
+
+figcaption {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  margin-top: 43px;
+  background-color: black;
+  color: white;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.direitos {
+  width: 470px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.pFim {
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.feito {
+  text-decoration: underline;
+  position: absolute;
+  margin-left: 77vw;
+  margin-top: 39vh;
+}
